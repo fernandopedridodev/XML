@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Elemento raíz -->
+    <xs:element name="Productos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Producto" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string" />
+                            <xs:element name="Precio" type="xs:decimal" />
+                            <xs:element name="CantidadEnStock" type="xs:integer" />
+                        </xs:sequence>
+                        <!-- Atributo ID para cada producto -->
+                        <xs:attribute name="ID" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Productos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="UD2.xsd">
+
+    <Producto ID="001">
+        <Nombre>Producto A</Nombre>
+        <Precio>19.99</Precio>
+        <CantidadEnStock>150</CantidadEnStock>
+    </Producto>
+
+    <Producto ID="002">
+        <Nombre>Producto B</Nombre>
+        <Precio>29.99</Precio>
+        <CantidadEnStock>200</CantidadEnStock>
+    </Producto>
+
+    <Producto ID="003">
+        <Nombre>Producto C</Nombre>
+        <Precio>9.99</Precio>
+        <CantidadEnStock>300</CantidadEnStock>
+    </Producto>
+
+</Productos>
